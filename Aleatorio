@@ -1,0 +1,8 @@
+from random import choice
+n1 = input('O primeiro aluno: ')
+n2 = input('O segundo aluno: ')
+n3 = input('O terceiro aluno: ')
+n4 = input('O quarto aluno: ')
+lista = [n1, n2, n3, n4]
+escolhido = choice(lista)
+print(f'Dos alunos sorteados, esse foi o escolhido {escolhido}')
